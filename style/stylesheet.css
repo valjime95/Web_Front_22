@@ -1,5 +1,7 @@
-.pprincipal {
-	font-family: verdana;
-	color: green;
-	font-size: 30px;
+h1 {
+	color: red;
+}
+button{
+	color:  white;
+	background-color: green;
 }
