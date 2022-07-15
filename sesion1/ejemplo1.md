@@ -25,7 +25,7 @@
 
    ```bash
    $ pwd # Present Working Directory
-   /Users/bedu
+   /Users/valeriajimeno
    ```
 
 3. Una vez que sepas en donde te encuentras probablemente quieras ir a alguna
@@ -44,7 +44,7 @@
    >
    > ```bash
    > $ pwd
-   > /Users/bedu/Documents
+   > /Users/valeriajimeno/Documents
    > ```
 
 4. Ahora que ya te encuentras donde deseas crear tu proyecto, es momento de
@@ -78,7 +78,7 @@
    versiones específicas
 
 
-   ![](../assets/git.png)
+   ![](./assets/git.png)
 
    **La historia de Git**
 
@@ -96,13 +96,13 @@
 
    La principal diferencia entre Git y cualquier otro VCS (Versioning Control System) es la forma en la que manejan sus datos. Conceptualmente, la mayoría de los otros sistema almacenan la información como una **lista de cambios** en los archivos y las modificaciones hechas a cada una de ellos **a través del tiempo**.
 
-   ![](../assets/git1.png)
+   ![](./assets/git1.png)
 
 
    <a href="http://raulavila.com/2017/01/como-funciona-git-1/">Git, en cambio, maneja sus datos como un conjunto de copias instantáneas</a> **(articulo: Comó funciona el núcleo de Git)** de un sistema de archivos miniatura. Cada vez que confirmamos un **cambio o guardamos** el estado del proyecto, básicamente **toma una foto del aspecto de todos los archivos en ese momento y guarda una referencia a esa copia**. Para ser eficiente los archivos que no se han modificado Git no los almacena en el archivo nuevo, sino como un **enlace al archivo anterior idéntico** que ya se tiene almacenado.
 
 
-   ![](../assets/git2.png)
+   ![](./assets/git2.png)
 
 7. Una vez comprobado que tu directorio se creó correctamente, accede a él
    (recuerda el comando `cd` para cambiar de ubicación y `pwd` para verificar).
@@ -112,7 +112,7 @@
    ```bash
    $ cd matcha # Change directory a "matcha"
    $ pwd # Present Working Directory
-   /Users/bedu/Documents/matcha
+   /Users/valeriajimeno/Documents/matcha
    $ git init # Inicia un proyecto de Git "Vacío"
    ```
 
@@ -160,13 +160,10 @@
 
    4. Crear un repositorio remoto usando GitHub
 
-      ![](../assets/git3.png)
-
-      ![](../assets/git4.png)
+      ![](./assets/git3.png)
+      ![](./assets/git4.png)
 
       Copia la url de tu repositorio
-
-      ![](../assets/git5.png)
 
       Una vez copiada la url ejecuta los siguientes comandos
 
@@ -176,7 +173,7 @@
 
       Revisa tus cambios de tu repositorio en github
 
-      ![](../assets/git6.png)
+     ![](./assets/git5.png)
 
 ¡Genial! Acabas de crear la estructura mínima de tu proyecto y tienes tu proyecto en
 los servidores de GitHub, mediante comandos que insertaste en la terminal de tu computadora. Ahora tienes un mejor control sobre
@@ -190,5 +187,3 @@ Documents/
 ```
 
 <br/>
-
-[Siguiente](../Ejemplo%2002/README.md)
