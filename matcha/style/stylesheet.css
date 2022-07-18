@@ -1,0 +1,15 @@
+body{
+	background-color: rgba(255, 251, 247, 1);
+}
+
+h1 {
+	color: red;
+}
+button{
+	color:  white;
+	background-color: green;
+}
+
+.divisionV{
+	background-color: black;
+}
