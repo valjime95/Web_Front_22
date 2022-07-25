@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap');
+
 body{
 	background-color: rgba(255, 251, 247, 1);
 }
 
 h1 {
-	color: red;
+	color: #025157;
+	font-size: 50px;
+	/* clase del viernes */
+	font-family: "Alegreya", sans-serif;
 }
 button{
 	color:  white;
@@ -13,3 +18,59 @@ button{
 .divisionV{
 	background-color: black;
 }
+.botvclaro{
+	background-color: rgb(160, 213, 136);
+	/*color es para cambiar el color de las letras*/
+	color: white;
+	font-size: 20px;
+}
+
+p{
+	font-size: 25px;
+}
+
+li{
+	display: inline;
+}
+
+.header{
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 0;
+	height: 45px;
+}
+/*se agrega para el viernes*/
+.header > *{
+	/*inline-block es para que respete los cambios en el margen */
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: middle;
+	height: 100%;
+	line-height: 45px;
+}
+
+#img_logo {
+	/*width: 30%;*/
+	width: 40px;
+	height: 40px;
+}
+/*viernes*/
+.logo{
+	width: 15%;
+}
+/*viernes*/
+.navbar{
+	width: 70%;
+	text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+/*viernes*/
+.sign_in{
+	width: 15%;
+	text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
