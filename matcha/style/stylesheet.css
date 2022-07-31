@@ -15,7 +15,7 @@ button{
 }
 
 .publish {
-  /* container styles if any */
+  width: 50%;
 }
 
 .publish h3 {
@@ -39,4 +39,12 @@ button{
 .publish > form p {
   color: #025157;
   margin-right: 18px;
+}
+
+.promo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 100px auto;
 }
